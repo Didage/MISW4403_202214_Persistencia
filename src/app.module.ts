@@ -25,7 +25,7 @@ import { SponsorEntity } from './sponsor/sponsor.entity';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'postgres',
+      password: '1234',
       database: 'museum',
       entities: [ArtistEntity, ArtworkEntity, ExhibitionEntity, ImageEntity, MovementEntity, MuseumEntity, SponsorEntity],
       dropSchema: true,
